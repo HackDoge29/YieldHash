@@ -11,6 +11,7 @@ import { useFarmingPairs } from '../hooks/useFarmingPairs';
 import { useStakingPools } from '../hooks/useStakingPools';
 import { useTransactionHistory } from '../hooks/useTransactionHistory';
 
+
 const DApp: React.FC = () => {
   const { pairs, loading: pairsLoading } = useFarmingPairs();
   const { pools, loading: poolsLoading } = useStakingPools();
